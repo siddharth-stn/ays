@@ -159,13 +159,13 @@ body {
 }
 
 .socialIcons {
-  display: flex;
+  width: 250px;
   margin-left: auto;
   margin-right: auto;
-  width: 250px;
+  margin-top: 80px;
+  margin-bottom: 45px;
+  display: flex;
   justify-content: space-around;
-  margin-top: 70px;
-  margin-bottom: 55px;
 }
 
 .socialIcons > div > img {
@@ -473,3 +473,8 @@ section > div > div span {
   }
 }
 /**-------------------------------------------- styling of tablet screen starts from here ----------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+  body {
+    width: min-content;
+  }
+}
