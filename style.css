@@ -370,7 +370,7 @@ section > div > div span {
 }
 
 .howToReachDiv {
-  width: 80%;
+  width: max-content;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -389,7 +389,6 @@ section > div > div span {
   font-weight: 800;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  margin-bottom: 30px;
 }
 
 .infoLinks {
@@ -405,4 +404,48 @@ section > div > div span {
   font-size: 1rem;
   font-weight: bold;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.menuTop {
+  border-radius: 50%;
+  border: 2px solid;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./static/images/backtotop.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: sticky;
+  bottom: 50px;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.anchorTop {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+}
+
+.contact {
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+}
+
+.address {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
 }
