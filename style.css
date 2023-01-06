@@ -437,7 +437,6 @@ section > div > div span {
     justify-content: space-between;
     padding: 10px 0;
     background-color: #6316e0;
-    display: none;
   }
 
   .navBtns {
@@ -729,5 +728,9 @@ section > div > div span {
   .phone {
     display: flex;
     align-items: center;
+  }
+
+  .hidden {
+    display: none !important;
   }
 }
