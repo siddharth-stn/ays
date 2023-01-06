@@ -411,7 +411,7 @@ section > div > div span {
   align-items: center;
 }
 
-/**-------------------------------------- Designing starts for Laptop screen from here ----------------------------------------**/
+/**-------------------------------------- Designing starts for Laptop screen from here ---------------------------------------- */
 @media only screen and (max-width: 1440px) {
   .containerMain .navbar {
     height: 7vh;
@@ -472,6 +472,4 @@ section > div > div span {
     font-size: 2.5rem;
   }
 }
-
-
-/**-------------------------------------------- styling of tablet screen starts from here ----------------------------------------------**/
+/**-------------------------------------------- styling of tablet screen starts from here ----------------------------------------------*/
