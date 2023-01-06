@@ -410,3 +410,11 @@ section > div > div span {
   display: flex;
   align-items: center;
 }
+
+/**-------------------------------------- Designing starts for Laptop from here ----------------------------------------**/
+
+@media only screen and (max-width: 1440px) {
+  body {
+    
+  }
+} ;
