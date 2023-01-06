@@ -477,13 +477,13 @@ section > div > div span {
   }
 
   .aboutHeading {
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #6316e0;
     color: white;
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 1.6rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
@@ -501,101 +501,118 @@ section > div > div span {
   }
 
   .memberInfoDiv {
-    width: 100%;
+    width: 90%;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
     flex-direction: column;
     row-gap: 20px;
     margin-top: 50px;
   }
 
   .memberInfoDiv > div {
-    display: flex;
-    column-gap: 40px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    border: 8px solid #6316e0;
-    align-items: center;
+    border: none;
+    width: 100%;
+  }
+
+  .memberInfoDiv > div > div img {
+    max-width: 100px;
   }
 
   .memberInfoDiv > div p {
-    font-size: 1.6rem;
-    font-weight: 650;
+    font-size: 1.3rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
   }
 
   .venueDiv {
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .venueDiv > figure {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
   }
 
   .venueDiv > figure img {
+    width: 100%;
     border-radius: 5px;
-    box-shadow: 7px 5px 30px 3px rgba(0, 0, 0, 0.8);
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.8);
   }
 
   .venueDiv > figure figcaption {
-    font-size: 1.5rem;
-    margin-top: 7px;
+    font-size: 0.7rem;
+    margin-top: 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
   }
 
   .gallery {
-    margin-top: 100px;
+    margin-top: 30px;
   }
 
   .gallery h3 {
-    height: 2cm;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #6316e0;
     color: white;
-    font-size: 3rem;
-    font-weight: 800;
+    font-size: 1.6rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .galleryPicsDiv {
-    border: 8px solid #6316e0;
+    border: 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(2, 50%);
+    gap: 5px;
     justify-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .galleryPicsDiv > div {
+    max-width: 100%;
+  }
+
+  .galleryPicsDiv > div > img {
+    max-width: 100%;
   }
 
   .someInfo {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 80%;
-    height: max-content;
+    align-items: center;
+    width: 90%;
+    height: initial;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
-    border: 8px solid #6316e0;
-    column-gap: 15px;
-    padding: 8px;
+    margin-top: 30px;
+    border: 0;
+    column-gap: 0;
+    padding: 0;
   }
 
   .someInfo > div h3 {
-    height: 2cm;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #6316e0;
     color: white;
-    font-size: 3rem;
-    font-weight: 800;
+    font-size: 1.6rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
@@ -603,14 +620,13 @@ section > div > div span {
   }
 
   .someInfo > aside h3 {
-    height: 2cm;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #6316e0;
     color: white;
-    font-size: 3rem;
-    font-weight: 800;
+    font-size: 1.6rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
@@ -618,18 +634,26 @@ section > div > div span {
   }
 
   .leftSection {
-    width: 50%;
+    width: 100%;
     height: auto;
     border: 8px solid #6316e0;
+    border-top: 0;
+  }
+
+  .contact {
+    font-size: 1.2rem;
   }
 
   .rightSection {
-    width: 50%;
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
     border: 8px solid #6316e0;
+    border-top: 0;
   }
 
   section > aside p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
@@ -648,26 +672,29 @@ section > div > div span {
   }
 
   .howToReachDiv {
-    width: max-content;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
-    margin-bottom: 200px;
-    border: 8px solid #6316e0;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 0;
   }
 
   .howToReachDiv h3 {
-    height: 2cm;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #6316e0;
     color: white;
-    font-size: 3rem;
-    font-weight: 800;
+    font-size: 1.6rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
+  }
+
+  .howToReachDiv img {
+    width: 100%;
   }
 
   .infoLinks {
