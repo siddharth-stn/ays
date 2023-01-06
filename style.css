@@ -141,7 +141,7 @@ body {
   align-items: center;
   column-gap: 10vw;
   background-color: #6316e0;
-  position: sticky;
+  position: fixed;
   top: 0;
 }
 
@@ -181,7 +181,7 @@ body {
   align-items: center;
 }
 
-.banner > div {
+.banner > img {
   border: 8px solid #6316e0;
 }
 
@@ -411,10 +411,67 @@ section > div > div span {
   align-items: center;
 }
 
-/**-------------------------------------- Designing starts for Laptop from here ----------------------------------------**/
-
+/**-------------------------------------- Designing starts for Laptop screen from here ----------------------------------------**/
 @media only screen and (max-width: 1440px) {
-  body {
-    
+  .containerMain .navbar {
+    height: 7vh;
+    width: 100%;
   }
-} ;
+
+  .navBtns {
+    font-size: 25px;
+    font-weight: 630;
+  }
+
+  .banner img {
+    border-radius: 8px;
+  }
+
+  .aboutHeading {
+    height: 1.8cm;
+    font-size: 2.5rem;
+  }
+
+  .aboutParaOne {
+    font-size: 1.4rem;
+  }
+
+  .memberInfoDiv > div p {
+    font-size: 1.4rem;
+  }
+
+  .venueDiv > figure figcaption {
+    font-size: 1.2rem;
+  }
+
+  .gallery h3 {
+    height: 1.8cm;
+    font-size: 2.5rem;
+  }
+
+  .someInfo > div h3 {
+    height: 1.8cm;
+    font-size: 2.5rem;
+  }
+
+  .someInfo > aside h3 {
+    height: 1.8cm;
+    font-size: 2.5rem;
+  }
+
+  .someInfo > div > div span {
+    font-size: 1.2rem;
+  }
+
+  section > aside p {
+    font-size: 1.2rem;
+  }
+
+  .howToReachDiv h3 {
+    height: 1.8cm;
+    font-size: 2.5rem;
+  }
+}
+
+
+/**-------------------------------------------- styling of tablet screen starts from here ----------------------------------------------**/
