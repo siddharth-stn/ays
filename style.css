@@ -315,6 +315,12 @@ main {
   padding-bottom: 20px;
 }
 
+.video {
+  margin-top: 7em;
+  display: flex;
+  justify-content: center;
+}
+
 .someInfo {
   display: flex;
   flex-direction: column;
@@ -803,6 +809,10 @@ section > div > div span {
 
   .galleryPicsDiv > div > img {
     max-width: 100%;
+  }
+
+  .video {
+    margin-top: 0.3em;
   }
 
   .someInfo {
