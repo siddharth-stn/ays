@@ -130,6 +130,7 @@ table {
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
 }
 /* **-------------------------**()()()()()()()()()()**----------------------------- */
 
@@ -511,6 +512,10 @@ section > div > div span {
 /** Media Query for Mobile View  */
 
 @media screen and (max-width: 425px) {
+  html {
+    scroll-padding-top: 3.5rem;
+  }
+
   .hamburger {
     margin-top: 6px;
     padding: 10px 10px;
