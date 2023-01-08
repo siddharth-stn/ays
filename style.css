@@ -457,7 +457,7 @@ section > div > div span {
     margin-left: 13px;
     background: linear-gradient(90deg, #9517b8, #6316e0, #6316e0);
   }
- 
+
   .navBtns {
     font-size: 25px;
     font-weight: 700;
@@ -577,9 +577,9 @@ section > div > div span {
     font-size: 2.5rem;
   }
 
-.galleryPicsDiv {
+  .galleryPicsDiv {
     grid-template-columns: repeat(2, 1fr);
-}
+  }
 
   .someInfo > div h3 {
     height: 1.8cm;
@@ -878,12 +878,12 @@ section > div > div span {
   }
 
   section > div > div span {
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 0.9rem;
+    font-weight: 300;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
-    margin-left: 15px;
+    margin-left: 20px;
   }
 
   .howToReachDiv {
@@ -939,6 +939,7 @@ section > div > div span {
     border-top: 1px solid black;
     display: flex;
     align-items: center;
+    font-size: 0.2em;
   }
 
   .phone {
