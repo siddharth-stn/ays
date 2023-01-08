@@ -210,13 +210,37 @@ main {
   margin-bottom: 30px;
 }
 
-.aboutParaOne {
+.aboutPara {
+  line-height: 1.7rem;
   width: auto;
   height: max-content;
-  font-size: 2rem;
+  font-size: 1.2em;
   font-weight: 600;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.hindi {
+  font-weight: 300;
+}
+
+.blueHighlight {
+  color: blue;
+}
+
+.redHeading {
+  color: red;
+  font-size: 1.7em;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.blueHeading {
+  color: blue;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .memberInfoDiv {
@@ -292,13 +316,13 @@ main {
 
 .someInfo {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   width: 80%;
   height: max-content;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-  border: 8px solid #6316e0;
   column-gap: 15px;
   padding: 8px;
 }
@@ -332,13 +356,13 @@ main {
 }
 
 .leftSection {
-  width: 50%;
+  width: 100%;
   height: auto;
   border: 8px solid #6316e0;
 }
 
 .rightSection {
-  width: 50%;
+  width: 100%;
   border: 8px solid #6316e0;
 }
 
@@ -396,9 +420,10 @@ section > div > div span {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.contact {
+.contactDiv {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
   width: max-content;
 }
 
@@ -561,7 +586,7 @@ section > div > div span {
     margin-bottom: 10px;
   }
 
-  .aboutParaOne {
+  .aboutPara {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -569,6 +594,24 @@ section > div > div span {
     font-size: 1.3rem;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .blueHighlight {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .blueHeading {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .redHeading {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .memberInfoDiv {
