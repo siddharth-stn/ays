@@ -431,7 +431,7 @@ section > div > div span {
     margin-left: 13px;
     background: linear-gradient(90deg, #9517b8, #6316e0, #6316e0);
   }
-
+ 
   .navBtns {
     font-size: 25px;
     font-weight: 700;
@@ -494,6 +494,8 @@ section > div > div span {
     font-size: 2.5rem;
   }
 }
+
+/**----- Media Query for Small laptop screen -----*/
 
 @media only screen and (max-width: 1204px) and (min-width: 769px) {
   html {
