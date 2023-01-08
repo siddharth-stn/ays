@@ -441,20 +441,34 @@ section > div > div span {
   align-items: center;
 }
 
-/**-------Designing starts for Laptop screen from here -----------*/
-@media only screen and (max-width: 1440px) and (min-width: 769px) {
-  .containerMain .navbar {
-    height: 7vh;
-    width: 100%;
+/**----- Media Query for Laptop View -----*/
+
+@media only screen and (max-width: 1440px) and (min-width: 1205px) {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
   }
 
+  .containerMain .navbar {
+    width: 98%;
+    height: 7vh;
+    border-radius: 50px;
+    margin-top: 1px;
+    margin-left: 13px;
+    background: linear-gradient(90deg, #9517b8, #6316e0, #6316e0);
+  }
+ 
   .navBtns {
     font-size: 25px;
-    font-weight: 630;
+    font-weight: 700;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    letter-spacing: 0.5px;
   }
 
   .banner img {
-    border-radius: 8px;
+    width: 95%;
+    border: none;
   }
 
   .aboutHeading {
@@ -464,6 +478,10 @@ section > div > div span {
 
   .aboutParaOne {
     font-size: 1.4rem;
+  }
+
+  .memberInfoDiv > div {
+    width: 70%;
   }
 
   .memberInfoDiv > div p {
@@ -502,10 +520,88 @@ section > div > div span {
     font-size: 2.5rem;
   }
 }
-/**----------- styling of tablet screen starts from here --------*/
-@media only screen and (max-width: 768px) and (min-width: 426px) {
-  body {
-    width: min-content;
+
+/**----- Media Query for Small laptop screen -----*/
+
+@media only screen and (max-width: 1204px) and (min-width: 769px) {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+  }
+
+  .containerMain .navbar {
+    width: 98%;
+    height: 7vh;
+    border-radius: 50px;
+    margin-top: 1px;
+    margin-left: 13px;
+    background: linear-gradient(90deg, #9517b8, #6316e0, #6316e0);
+  }
+
+  .navBtns {
+    font-size: 23px;
+    font-weight: 700;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    letter-spacing: 0.5px;
+  }
+
+  .banner img {
+    width: 95%;
+    border: none;
+  }
+
+  .aboutHeading {
+    height: 1.8cm;
+    font-size: 2.5rem;
+  }
+
+  .aboutParaOne {
+    font-size: 1.4rem;
+  }
+
+  .memberInfoDiv > div {
+    width: 70%;
+  }
+
+  .memberInfoDiv > div p {
+    font-size: 1.4rem;
+  }
+
+  .venueDiv > figure figcaption {
+    font-size: 1.2rem;
+  }
+
+  .gallery h3 {
+    height: 1.8cm;
+    font-size: 2.5rem;
+  }
+
+.galleryPicsDiv {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+  .someInfo > div h3 {
+    height: 1.8cm;
+    font-size: 2.5rem;
+  }
+
+  .someInfo > aside h3 {
+    height: 1.8cm;
+    font-size: 2.5rem;
+  }
+
+  .someInfo > div > div span {
+    font-size: 1.2rem;
+  }
+
+  section > aside p {
+    font-size: 1.2rem;
+  }
+
+  .howToReachDiv h3 {
+    height: 1.8cm;
+    font-size: 2.5rem;
   }
 }
 
