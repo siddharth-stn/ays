@@ -301,6 +301,10 @@ main {
   align-items: center;
 }
 
+.memberInfoDiv > div > div img {
+  width: 80%;
+}
+
 .memberInfoDiv > div p {
   font-size: 1.6rem;
   font-weight: 650;
@@ -464,6 +468,7 @@ section > div > div span {
   width: 70%;
   height: fit-content;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 20px;
